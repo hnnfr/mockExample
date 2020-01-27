@@ -7,7 +7,7 @@ public class WebClient {
 	
 	public String getContent(ConnectionFactory connectionFactory) {
 		StringBuilder content = new StringBuilder();
-		InputStream is; 
+		InputStream is = null; 
 		try {
 			is = connectionFactory.getData();
 			int count; 
