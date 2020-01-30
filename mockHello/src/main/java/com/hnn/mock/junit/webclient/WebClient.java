@@ -1,4 +1,4 @@
-package com.hnn.mock.junit;
+package com.hnn.mock.junit.webclient;
 
 import java.io.IOException;
 import java.io.InputStream;

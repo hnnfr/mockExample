@@ -1,6 +1,8 @@
-package com.hnn.mock.junit;
+package com.hnn.mock.junit.webclient;
 
 import java.io.InputStream;
+
+import com.hnn.mock.junit.webclient.ConnectionFactory;
 
 public class MockConnectionFactory implements ConnectionFactory {
 	

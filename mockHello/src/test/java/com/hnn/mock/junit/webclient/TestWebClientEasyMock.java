@@ -1,4 +1,4 @@
-package com.hnn.mock.junit;
+package com.hnn.mock.junit.webclient;
 
 import static org.easymock.EasyMock.*;
 import static org.junit.Assert.assertEquals;
@@ -10,6 +10,9 @@ import java.io.InputStream;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.hnn.mock.junit.webclient.ConnectionFactory;
+import com.hnn.mock.junit.webclient.WebClient;
 
 public class TestWebClientEasyMock {
 

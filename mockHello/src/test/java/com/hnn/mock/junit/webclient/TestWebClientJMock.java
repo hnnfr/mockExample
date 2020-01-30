@@ -1,4 +1,4 @@
-package com.hnn.mock.junit;
+package com.hnn.mock.junit.webclient;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
@@ -14,6 +14,9 @@ import org.jmock.lib.legacy.ClassImposteriser;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
+import com.hnn.mock.junit.webclient.ConnectionFactory;
+import com.hnn.mock.junit.webclient.WebClient;
 
 @RunWith(JMock.class)
 public class TestWebClientJMock {

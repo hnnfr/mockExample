@@ -1,8 +1,10 @@
-package com.hnn.mock.junit;
+package com.hnn.mock.junit.webclient;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import com.hnn.mock.junit.webclient.WebClient;
 
 public class TestWebClientWithExpectation {
 
